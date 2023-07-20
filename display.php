@@ -3,7 +3,7 @@ include'connect.php';
 
 if(isset($_POST['displaySend'])){
     $table='
-    <table class="table">
+    <table class="table table-responsive">
     <tr>
   <thead class="table-dark">
   <th scope="col"> Sr no </th>

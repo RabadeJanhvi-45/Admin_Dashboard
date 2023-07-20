@@ -17,7 +17,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Add User</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -32,7 +32,7 @@
                     </div>
                     <div class="form-group">
                         <label for="mobile" class="form-label">Mobile</label>
-                        <input type="text" class="form-control" id="mobile" placeholder="Enter your mobile number">
+                        <input type="number" class="form-control" id="mobile" placeholder="Enter your mobile number">
                     </div>
                     <div class="form-group">
                         <label for="place" class="form-label">Place</label>
@@ -94,9 +94,13 @@
         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#NewUser">
             Add New User
         </button>
-        <div id="displayDataTable"></div>
+        
+    
 
     </div>
+     <div class="container my-3">
+           <div id="displayDataTable"></div>
+     </div>
 
 
 
