@@ -1,24 +1,13 @@
 # Admin Dashboard
-
 A web-based administration dashboard built with **HTML, Bootstrap, JavaScript, AJAX, PHP, and MySQL**. The project demonstrates how a web interface can perform database-backed CRUD operations and update the page asynchronously, without requiring a full page reload for each supported action.
 
-> **Project status:** This README documents the functionality described for the project. Setup details such as database names, SQL imports, entry-point files, and configuration paths should be confirmed against the repository before running the application.
-
 ## Table of Contents
-
-- [Overview](#overview)
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [System Design](#system-design)
 - [How It Works](#how-it-works)
-## Overview
-
-The Admin Dashboard provides an interface for an administrator to manage records stored in a MySQL database. It uses PHP for server-side processing and JavaScript with AJAX for asynchronous communication between the browser and the backend.
-
-When an administrator performs a supported operation, the frontend sends the relevant request to the PHP backend. PHP processes the request and interacts with MySQL, then returns a response that the interface can use to show the result.
 
 ## Features
-
 - **Create records:** Submit form data to the backend to add records.
 - **Read and display data:** Retrieve and present stored records, where implemented.
 - **Update records:** Modify existing records in the database.
